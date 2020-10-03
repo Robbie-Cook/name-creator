@@ -1,6 +1,6 @@
 {
-  "name": "project-name-generator",
-  "version": "2.1.7",
+  "name": "name-creator",
+  "version": "3.0.0",
   "description": "Generate a random, unique, heroku-like name for your app/project/server etc. e.g. \"resonant-silence\"",
   "main": "src/generator.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/aceakash/project-name-generator.git"
+    "url": "https://github.com/Robbie-Cook/project-name-generator"
   },
   "keywords": [
     "heroku",
@@ -22,7 +22,7 @@
     "generator",
     "generater"
   ],
-  "author": "Akash Kurdekar",
+  "author": "Robbie Cook <https://github.com/Robbie-Cook>. Forked from https://github.com/aceakash/project-name-generator",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^5.1.1",

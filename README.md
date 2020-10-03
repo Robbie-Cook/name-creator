@@ -1,15 +1,18 @@
-# Project Name Generator
+# Name Creator
+
+> This project is forked from Project Name Generator (https://www.npmjs.com/package/project-name-generator),
+> but with some improvements
 
 Generate quirky names like *spiffy-waterfall*, *sassy-bread*, *mature-dew-8239* to use wherever you need a random but memorable name.
 
 Useful for object names, temp folders, passwords, project names, unique ids etc
 
 ## Install
-`npm install project-name-generator --save`
+`npm install name-creator --save`
 
 ## Quick Start
 ```javascript
-var generate = require('project-name-generator');
+var generate = require('name-creator');
 
 generate().dashed; // 'uptight-guitar'
 
@@ -29,11 +32,11 @@ generate({ words: 2, alliterative: true }).spaced; // 'elegant experience'
 
 ## Quickstart CLI
 This package contains a cli script.  You can pull in the package globally using npm
-`npm install -g project-name-generator`
+`npm install -g name-creator`
 
 Call from your command line
 ```
-$ project-name-generator
+$ name-creator
 { raw: [ 'spry', 'bath' ],
   dashed: 'spry-bath',
   spaced: 'spry bath' }
@@ -41,9 +44,9 @@ $ project-name-generator
 
 For CLI options 
 ```
-project-name-generator -h
+name-creator -h
 
-Usage: project-name-generator [options]
+Usage: name-creator [options]
 
 
 Options:
@@ -112,6 +115,6 @@ npm test
 The library has been tested with Node.js 8.6.0
 
 ## Status
-[ ![Build Status for aceakash/project-name-generator](https://codeship.com/projects/261b5340-4472-0134-6925-4ed1b3e90ffc/status?branch=master)](https://codeship.com/projects/168462)
+[ ![Build Status for aceakash/name-creator](https://codeship.com/projects/261b5340-4472-0134-6925-4ed1b3e90ffc/status?branch=master)](https://codeship.com/projects/168462)
 
 ![How up-to-date are dependencies?](https://david-dm.org/aceakash/project-name-generator.svg)
