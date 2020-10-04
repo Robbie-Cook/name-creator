@@ -1,6 +1,6 @@
 var _ = require('lodash'),
-  nouns = require('../src/nouns'),
-  adjectives = require('../src/adjectives'),
+  nouns = require('../dist/nouns'),
+  adjectives = require('../dist/adjectives'),
   helpers = require('./spec-helpers'),
   expect = require('must');
 
