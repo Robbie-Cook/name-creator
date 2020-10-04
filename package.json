@@ -1,6 +1,6 @@
 {
   "name": "name-creator",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Generate a random, unique, heroku-like name for your app/project/server etc. e.g. \"resonant-silence\"",
   "main": "dist/generator.js",
   "scripts": {
