@@ -6,7 +6,11 @@ const adjectives = require('./adjectives');
 module.exports = generate;
 
 generate.generate = generate;
-function generate(options) {
+/**
+ * Generate a name
+ * @param {any | undefined} options 
+ */
+function generate(options = {}) {
   var defaults = {
     number: false,
     words: 2,

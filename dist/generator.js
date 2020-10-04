@@ -4,7 +4,12 @@ var nouns = require('./nouns');
 var adjectives = require('./adjectives');
 module.exports = generate;
 generate.generate = generate;
+/**
+ * Generate a name
+ * @param {any | undefined} options
+ */
 function generate(options) {
+    if (options === void 0) { options = {}; }
     var defaults = {
         number: false,
         words: 2,
