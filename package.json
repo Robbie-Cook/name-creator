@@ -5,7 +5,9 @@
   "main": "dist/generator.js",
   "scripts": {
     "test": "mocha spec/**/*.spec.js",
-    "start": "tsc"
+    "start": "tsc --watch",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
