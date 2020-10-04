@@ -1,7 +1,7 @@
 # Name Creator
 
 > This project is forked from Project Name Generator (https://www.npmjs.com/package/project-name-generator),
-> but with some improvements
+> but with some improvements.
 
 Generate quirky names like *spiffy-waterfall*, *sassy-bread*, *mature-dew-8239* to use wherever you need a random but memorable name.
 
