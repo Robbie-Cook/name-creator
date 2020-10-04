@@ -2,9 +2,10 @@
   "name": "name-creator",
   "version": "3.0.1",
   "description": "Generate a random, unique, heroku-like name for your app/project/server etc. e.g. \"resonant-silence\"",
-  "main": "src/generator.js",
+  "main": "dist/generator.js",
   "scripts": {
-    "test": "mocha spec/**/*.spec.js"
+    "test": "mocha spec/**/*.spec.js",
+    "start": "tsc"
   },
   "repository": {
     "type": "git",
@@ -26,9 +27,11 @@
   "license": "ISC",
   "devDependencies": {
     "mocha": "^5.1.1",
-    "must": "^0.13.4"
+    "must": "^0.13.4",
+    "typescript": "^4.0.3"
   },
   "dependencies": {
+    "@types/node": "^14.11.2",
     "commander": "^2.15.1",
     "lodash": "^4.17.20"
   },
